@@ -52,7 +52,7 @@ public class RunningMedian {
 		int current_number;
 		
 		while (true) {
-			System.out.print("Pleas enter a positive integer (0 to quit): ");
+			System.out.print("Please enter a positive integer (0 to quit): ");
 			current_number = scanner.nextInt();
 			if (current_number <= 0) {
 				break;
